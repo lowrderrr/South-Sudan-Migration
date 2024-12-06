@@ -1,5 +1,5 @@
 body {
-    padding: 0;
+    padding: 30px;
     flex-direction: column; /* 垂直排列标题和图表 */
     align-items: center;
     height: 100vh;
@@ -11,8 +11,7 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
-footer {
-    padding: 50px;
+main,header,footer {
     align-self: center;
 }
 
@@ -24,7 +23,6 @@ h1 {
 }
 
 h2{
-    margin-bottom: 50px; /* 设置标题下方的间距 */
     font-size: 20px; /* 根据需要调整字体大小 */
     text-align: center; /* 居中标题 */
 }
@@ -45,7 +43,7 @@ h2{
 }
   
 .hero-image img {
-    width: 100%;
+    width: 1200px;
     height: auto;
 }
 
@@ -53,7 +51,7 @@ h2{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -50%);
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     font-size: 50px;
@@ -84,6 +82,17 @@ h2{
     color:darkblue;
 }
 
+.column2 {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px; 
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    color:darkblue;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 .iframe-container {
@@ -119,6 +128,13 @@ h2{
     margin: 20px auto;
     max-width: 1000px;
 }
+
+.container4 {
+    display:flexbox;
+    width: 700px;
+    text-align: center;
+}
+
 
 
 
@@ -169,4 +185,21 @@ h2{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     border: 2px solid #4a90e2;
     align-items: center;
+}
+
+.pic {
+    margin: 20px auto;
+    width: 700px;
+    display: block;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4a90e2;
+    align-items: center;
+}
+
+.center-wrapper3 {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 再次确保水平居中 */
+    align-items: center;
+    overflow: hidden; /* 隐藏滚动条 */   
 }
