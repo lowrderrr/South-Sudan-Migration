@@ -112,6 +112,14 @@ h2{
     overflow: hidden; /* 隐藏滚动条 */
 }
 
+.container3 {
+    display:flexbox;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
 
 
 .iframe-container2{
