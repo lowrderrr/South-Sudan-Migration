@@ -1,5 +1,5 @@
 body {
-    padding: 30px;
+    padding: 140px;
     flex-direction: column; /* 垂直排列标题和图表 */
     align-items: center;
     height: 100vh;
@@ -11,8 +11,9 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
-main,header,footer {
+footer {
     align-self: center;
+    padding: 100px;
 }
 
 h1 {
@@ -196,6 +197,15 @@ h2{
     align-items: center;
 }
 
+.pic2 {
+    margin: 20px auto;
+    width: 1000px;
+    display: block;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4a90e2;
+    align-items: center;
+}
+
 .center-wrapper3 {
     width: 100%;
     display: flex;
@@ -203,3 +213,9 @@ h2{
     align-items: center;
     overflow: hidden; /* 隐藏滚动条 */   
 }
+
+p {
+    margin: 0 0 0 0; /* 设置段落下方的间距 */
+    line-height: 1.2; /* 行间距 */
+}
+  
