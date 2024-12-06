@@ -1,18 +1,149 @@
 body {
-    margin: 0;
     padding: 0;
-    display: flex;
     flex-direction: column; /* 垂直排列标题和图表 */
     align-items: center;
     height: 100vh;
     background-color: #ffffff;
+    margin: 0px;
+    background-color: turquoise;
+    color:darkblue;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
 }
 
+footer {
+    padding: 50px;
+    align-self: center;
+}
 
 h1 {
     margin-bottom: 50px; /* 设置标题下方的间距 */
-    font-size: 24px; /* 根据需要调整字体大小 */
+    font-size: 50px; /* 根据需要调整字体大小 */
     text-align: center; /* 居中标题 */
+    
+}
+
+h2{
+    margin-bottom: 50px; /* 设置标题下方的间距 */
+    font-size: 20px; /* 根据需要调整字体大小 */
+    text-align: center; /* 居中标题 */
+}
+
+.h4-2{
+    text-align: center;
+    font-style: italic;
+}
+
+/* Header Section */
+#hero {
+    position: relative;
+    text-align: center;
+}
+  
+.hero-image {
+    position: relative;
+}
+  
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+}
+
+.pic-container {
+    display:flexbox;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.bilingual-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 1040px;
+}
+
+.column {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px; 
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    color:darkblue;
+}
+
+
+
+.iframe-container {
+    text-align: center;
+    width: 700px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    color:darkblue;
+}
+
+.center-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 再次确保水平居中 */
+    align-items: center;
+    overflow: hidden; /* 隐藏滚动条 */
+}
+
+.center-wrapper2{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 再次确保水平居中 */
+    align-items: center;
+    overflow: hidden; /* 隐藏滚动条 */
+}
+
+
+
+.iframe-container2{
+    text-align: center;
+    width: 1000px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px; 
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    color:darkblue;
+    overflow: hidden; /* 隐藏滚动条 */
+}
+
+.responsive-iframe2{
+    width: 1000px; /* 设置宽度 */
+    height: 600px; /* 设置高度 */
+    border: none;
+    overflow: hidden; /* 隐藏滚动条 */
+}
+
+.responsive-iframe {
+    width: 100%; /* 设置宽度 */
+    height: 3500px; /* 设置高度 */
+    border: none;
+}
+
+.align-heading{
+    text-align: center;
+    border-bottom: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .container {
@@ -23,136 +154,11 @@ h1 {
     padding-top: 10px; /* 图表顶部的间距 */
 }
 
-/* 坐标轴样式 */
-.axis {
-    position: relative;
-    height: 400px; /* 高度与矩形一致 */
-    width: 40px; /* 坐标轴宽度 */
-    margin-right: -40px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* 坐标标签均匀分布 */
-    align-items: flex-start; /* 标签靠左对齐 */
-    border-left: 1px solid black; /* 竖线 */
-}
-
-.axis-title {
-    position: absolute;
-    top: -20px; /* 标题距离坐标轴的顶部 */
-    left: -34px;
-    transform: translateX(-50%);
-    font-size: 12px; /* 标题字体大小 */
-    font-weight: regular;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-align: center;
-}
-
-/* 坐标轴标签样式 */
-.axis .label {
-    position: absolute;
-    display: flex; /* 使用 flexbox 让标签与横线对齐 */
-    justify-content: flex-end; /* 横线与标签对齐 */
-    align-items: center;
-    font-size: 10px;
-    margin-bottom: -6px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    width: 60px; /* 标签和横线占据的总宽度 */
-    left: -55px; /* 标签移动到左侧 */
-}
-
-/* 标签的小横线 */
-.axis .label::after {
-    content: ''; /* 伪元素 */
-    width: 5px; /* 横线长度 */
-    height: 1px; /* 横线宽度 */
-    background-color: black; /* 横线颜色 */
+.avatar{
+    margin: 20px auto;
+    width: 200px;
     display: block;
-    margin-left: 5px; /* 横线与标签文字的间距 */
-    z-index: 100; /* 确保点在内容之上 */
-}
-
-/* 标签位置 */
-.axis .label-0 {
-    bottom: 0%; /* 0位置 */
-}
-
-.axis .label-5000 {
-    bottom: 20%; /* 5000位置 */
-}
-
-.axis .label-10000 {
-    bottom: 40%; /* 5000位置 */
-}
-
-.axis .label-15000 {
-    bottom: 60%; /* 15000位置 */
-}
-
-.axis .label-20000 {
-    bottom: 80%; /* 20000位置 */
-}
-
-.axis .label-25000 {
-    bottom: 100%; /* 25000位置 */
-}
-
-
-.rectangle {
-    height: 400px;
-    width: 80px;
-    background-color: #ffffff;
-    position: relative;
-    margin: 0;
-    border-right: 1px dashed #d1d1d1;
-    border-bottom: 1px solid #165986;
-
-    cursor: pointer;
-    transition: width 0.3s ease;
-    display: flex;
-    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4a90e2;
     align-items: center;
-    overflow: hidden; /* 确保饼图不溢出 */
-    --dot-bottom: 10px; /* 默认伪元素距离底部的高度 */
-    --month: ''; /* 自定义属性，用于设置月份 */
-    overflow: visible;
-}
-
-.rectangle::after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: black;
-    border-radius: 50%; /* 圆形 */
-    transform: translateX(-50%);
-    bottom: var(--dot-bottom); /* 使用自定义属性设置距离 */
-    left: 50%;
-    z-index: 1; /* 确保点在内容之上 */
-}
-
-.rectangle::before {
-    content: attr(data-month); /* 从属性 `data-month` 中获取内容 */
-    position: absolute;
-    bottom: -15px;
-    transform: translateX(-50%, 10px);
-    font-size: 10px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 100; /* 确保点在内容之上 */
-    visibility: visible;
-}
-
-
-.rectangle.hide-month::before {
-    visibility: hidden;
-}
-
-.rectangle svg {
-    position: relative; /* 确保饼图在布局中可见 */
-    z-index: 2; /* 提高 z-index，避免被覆盖 */
-    pointer-events: none; /* 防止饼图阻挡点击事件 */
 }

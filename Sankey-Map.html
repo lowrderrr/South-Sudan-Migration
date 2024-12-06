@@ -1,0 +1,191 @@
+<html>
+  <head>
+    <title>JavaScript Sankey Diagram</title>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-sankey.min.js"></script>
+    <style type="text/css">      
+      html, body, #container { 
+        width: 100%; height: 100%; margin: 0; padding: 0; 
+      } 
+    </style>
+  </head>
+  <body>  
+    <div id="container"></div>
+    <script>
+
+anychart.onDocumentReady(function () {
+  
+  // add data
+  const data = [
+
+  
+
+
+           //states within south sudan 
+          {from: "Jonglei ", to: "Refugees", value: 243989},
+          {from: "Jonglei ", to: "Returnees", value: 19227},
+          {from: "Jonglei ", to: "IDP", value: 243989},
+
+          {from: "Western Equatoria", to: "Refugees", value: 68624},
+          {from: "Western Equatoria", to: "Returnees", value: 68624},
+          {from: "Western Equatoria", to: "IDP", value: 68624},
+
+          {from: "Central Equatoria", to: "Refugees", value: 25141},
+          {from: "Central Equatoria", to: "Returnees", value: 234636},
+          {from: "Central Equatoria", to: "IDP", value: 234636},
+
+          {from: "Eastern Equatoria", to: "Refugees", value: 49511},
+          {from: "Eastern Equatoria", to: "Returnees", value: 49511},
+          {from: "Eastern Equatoria", to: "IDP", value: 49511},
+
+          {from: "Unity", to: "Refugees", value: 196666},
+          {from: "Unity", to: "Returnees", value: 196666},
+          {from: "Unity", to: "IDP", value: 196666},
+
+          {from: "Upper Nile ", to: "Refugees", value: 139959},
+          {from: "Upper Nile ", to: "Returnees", value: 349422},
+          {from: "Upper Nile ", to: "IDP", value: 219012},
+
+
+          {from: "Lakes", to: "Refugees", value: 120},
+          {from: "Lakes", to: "Returnees", value: 186983},
+          {from: "Lakes", to: "IDP", value: 186983},
+
+          {from: "Warrap", to: "Refugees", value: 258},
+          {from: "Warrap", to: "Returnees", value: 12578},
+          {from: "Warrap", to: "IDP", value: 287355},
+
+          {from: "Western Bahr el Ghazal", to: "Refugees", value: 3493},
+          {from: "Western Bahr el Ghazal", to: "Returnees", value: 30095},
+          {from: "Western Bahr el Ghazal", to: "IDP", value: 64096},
+
+          {from: "Northen Bahr el Ghazal", to: "Refugees", value: 9159},
+          {from: "Northen Bahr el Ghazal", to: "Returnees", value: 54188},
+          {from: "Northen Bahr el Ghazal", to: "IDP", value: 64893},
+
+
+          //capital cities
+
+          {from: "Bor", to:  "Refugees", value: 2448480},
+          {from: "Bor", to: "Returnees", value: 38403},
+          {from: "Bor", to: "IDP", value: 98057},
+
+          {from: "Yambio", to: " Refugees", value: 15681},
+          {from: "Yambio", to: "Returnees", value: 17050},
+          {from: "Yambio", to: "IDP", value: 85305},
+
+          {from: "Juba", to: "Refugees", value: 25141},
+          {from: "Juba", to: "Returnees", value: 333538},
+          {from: "Juba", to: "IDP", value: 301538},
+
+          
+          {from: "Torit", to: "Returnees", value: 124096},
+          {from: "Torit", to: "IDP", value: 96327},
+
+          {from: "Bentiu", to: "Refugees", value: 127654},
+          {from: "Bentiu", to: "Returnees", value: 156219},
+          {from: "Bentiu", to: "IDP", value: 464393},
+
+          {from: "Malakal", to: "Refugees", value: 230541},
+          {from: "Malakal", to: "Returnees", value: 603498},
+          {from: "Malakal", to: "IDP", value: 249684},
+
+          {from: "Rumbek", to: "Refugees", value: 382},
+          {from: "Rumbek", to: "IDP", value: 169678},
+
+          {from: "Kuacjok", to: "Refugees", value: 20010},
+          {from: "Kuacjok", to: "IDP", value: 140920},
+
+          {from: "Wau", to: "Returnees", value: 45819},
+          {from: "Wau", to: "IDP", value: 29428},
+
+          {from: "Aweil", to: "Refugees", value: 13192},
+          {from: "Aweil", to: "Returnees", value: 59586},
+          {from: "Aweil", to: "IDP", value: 32023},
+
+           //types of population groups 
+          
+          
+
+           //gender 
+           
+          
+
+
+          //types of population groups 
+         
+
+        ];
+  // create a sankey diagram instance
+  let chart = anychart.sankey();
+
+  // load the data to the sankey diagram instance
+  chart.data(data);
+
+  // set the chart's padding
+  chart.padding(20, 40);
+
+  // configure a custom color palette
+  chart.palette([
+    "#f5dc50",
+    "#e1a03c",
+    "#c87d5a",
+    "#fff0c8",
+    "#aa96b4",
+    "#6e5a7d",
+    "#e19196",
+    "#419bd2",
+    "#46afaa",
+    "#5a5050"
+  ]);
+
+  // customize the nodes:
+  // set the width
+  chart.nodeWidth("40%");
+  // set the padding
+  chart.nodePadding(30);
+  // customize the labels
+  chart.node().normal().labels().fontSize(14);
+  chart.node().labels().useHtml(true);
+  chart
+    .node()
+    .labels()
+    .format("<span style='font-weight:bold'>{%name}</span><br>{%value}");
+
+  // customize the links
+  chart.flow({
+    normal: {
+      fill: function () {
+        return anychart.color.lighten(this.sourceColor, 0.5) + " " + 0.3;
+      }
+    },
+    hovered: {
+      fill: function () {
+        return this.sourceColor + " " + 0.8;
+      }
+    }
+  });
+
+  // add a title and customize it
+  chart
+    .title()
+    .enabled(true)
+    .useHtml(true)
+    .text(
+      '<span style = "color: #2b2b2b; font-size:20px;">Migration Patterns</span>' +
+        '<br/><span style="color:#00bfa5; font-size: 16px;">(South Sudan)</span>'
+    );
+
+  // set the chart container id
+  chart.container("container");
+
+  // draw the chart
+  chart.draw();
+
+});
+</script>
+</body>
+</html>
+    </script>
+  </body>
+</html>

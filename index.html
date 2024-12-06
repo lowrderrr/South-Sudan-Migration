@@ -3,39 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>矩形交互</title>
+    <title>Demographic Flow in South Sudan</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
-    <h1>Demographic Flow in South Sudan (01/2022 - 10/2022)</h1>
+    <section id="hero">
+        <div class="hero-image">
+            <img src="Hero Image.jpg" alt="1stpic">
+            <div class="overlay-text">
+                <h1>Demographic Visual Study For South Sudan</h1>
+                
+            </div>
+        </div>
+        <h2>South Sudan's demographic profile reveals a youthful and rapidly growing population, with over 62% under the age of 25. Home to diverse ethnic groups and over 80 languages, the country faces significant challenges, including high fertility rates, limited access to education, and public health concerns. Urbanization is accelerating, yet the majority still reside in rural areas. Despite these challenges, South Sudan's resilience and cultural richness provide a foundation for potential growth. Understanding its demographics is crucial for addressing development needs and fostering stability in this young nation.</h2>
+    </section>
 
-    <div class="container">
-        <div class="axis">
-            <div class="axis-title">Population</div>
-            <div class="label label-25000">25000</div>
-            <div class="label label-20000">20000</div>
-            <div class="label label-15000">15000</div>
-            <div class="label label-10000">15000</div>
-            <div class="label label-5000">5000</div>
-            <div class="label label-0">0</div>
+
+    <div class="center-wrapper">
+        <div class="bilingual-container">
+            <div class="iframe-container">
+            <iframe class="responsive-iframe" src="Sankey-Map.html"></iframe>
+            </div>
+            <div class="column">
+                <img src="Education.jpg" alt="avatar" class="avatar">
+                
+                <h3>Education</h3>
+                <p>Many migrants move to access better educational opportunities, especially as access to quality education is limited in rural areas. Schools and universities in urban centers attract families seeking improved prospects for their children or themselves.</p>
+
+                <img src="economics.avif" alt="avatar" class="avatar">
+
+
+                <h3>Economic</h3>
+                <p>Economic migration occurs when individuals or families relocate in search of better employment opportunities or income sources. South Sudan's challenging economic environment, including high unemployment rates and poverty, pushes people to migrate to urban areas or neighboring countries.</p>
+
+                <img src="healthcare.webp" alt="avatar" class="avatar">
+
+                
+
+                <h3>Healthcare</h3>
+                <p>Poor healthcare infrastructure in rural areas or conflict-affected zones drives migration to urban centers or neighboring countries where better medical facilities and resources are available.</p>
+
+                <img src="FRTRA.jpg" alt="avatar" class="avatar">
+
+                
+
+                <h3>Family-Related Travel</h3>
+                <p>Migration can also be driven by family reunification, marriage, or other family-related obligations. Individuals often travel to join relatives in safer or more prosperous areas.</p>
+
+                <img src="returnfromtra.jpg" alt="avatar" class="avatar">
+
+                
+
+                <h3>Return from Voluntary Travel</h3>
+                <p> Migrants who initially left their homes for reasons such as education, employment, or temporary relocation may choose to return voluntarily after achieving their goals or when conditions improve in their origin area.</p>
+
+                <img src="conflictdisplacement.jpg" alt="avatar" class="avatar">
+
+                
+
+                <h3>Conflict Displacement</h3>
+                <p>Ongoing conflicts in South Sudan force people to flee their homes to escape violence, insecurity, and persecution. Many end up as internally displaced persons (IDPs) or refugees in neighboring countries.</p>
+
+                <img src="fooedinsecurity.jpg" alt="avatar" class="avatar">
+
+                
+
+                <h3>Food Insecurity</h3>
+                <p>Severe food shortages, often due to drought, conflict, or economic instability, drive migration as families move in search of food assistance or better agricultural opportunities.</p>
+
+                <img src="disasterdisplacement.webp" alt="avatar" class="avatar">
+
+                
+
+                <h3>Disaster Displacement</h3>
+                <p>Natural disasters such as floods, droughts, or locust infestations displace many people in South Sudan. Seasonal rains often lead to floods, forcing communities to migrate to safer areas.</p>
+
+                <img src="other.jpg" alt="avatar" class="avatar">
+
+                
+
+                <h3>Other</h3>
+                <p>This includes various less common reasons for migration, such as cultural obligations, legal or administrative issues, and personal safety concerns unrelated to conflict or disaster.</p>
+
+                <img src="seasonal.jpg" alt="avatar" class="avatar">
+
+                
+
+                <h3>Seasonal</h3>
+                <p>Seasonal migration often relates to agricultural activities or pastoralist practices. People move temporarily to access fertile lands, grazing areas for livestock, or seasonal job opportunities during planting or harvest seasons.</p>
+
+
+            </div>
+        </div>
+    </div>
+        
+    <br>
+
+    <div class="center-wrapper2">
+        <div class="iframe-container2">
+            <iframe class="responsive-iframe2" src="Interaction.html"></iframe>
         </div>
 
-        <!-- 添加 data-month 属性，值为月份 -->
-        <div class="rectangle" data-id="1" data-month="01-2022"></div>
-        <div class="rectangle" data-id="2" data-month="02-2022"></div>
-        <div class="rectangle" data-id="3" data-month="03-2022"></div>
-        <div class="rectangle" data-id="4" data-month="04-2022"></div>
-        <div class="rectangle" data-id="5" data-month="05-2022"></div>
-        <div class="rectangle" data-id="6" data-month="06-2022"></div>
-        <div class="rectangle" data-id="7" data-month="07-2022"></div>
-        <div class="rectangle" data-id="8" data-month="08-2022"></div>
-        <div class="rectangle" data-id="9" data-month="09-2022"></div>
-        <div class="rectangle" data-id="10" data-month="10-2022"></div>
-
     </div>
-    
+
+    <footer class="h4-2"> - Lane, Leila, Wethu - </footer>
 
     <script src="script.js"></script>
     <script type="module" src="script.js"></script>
