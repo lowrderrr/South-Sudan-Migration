@@ -1,0 +1,460 @@
+Reason_type,Reason,percent
+1_lmt_yes,Economic,0.61 
+1_lmt_yes,Education,64.24 
+1_lmt_yes,Family Related Travel,24.24 
+1_lmt_yes,Health Care,1.21 
+1_lmt_yes,Return from voluntary travel,9.70 
+2_lmt_yes,Economic,4.47 
+2_lmt_yes,Education,44.69 
+2_lmt_yes,Family Related Travel,41.90 
+2_lmt_yes,Health Care,1.12 
+2_lmt_yes,Return from voluntary travel,5.03 
+2_lmt_yes,Travel to Collect Aid,2.79 
+3_lmt_yes,Conflict Displacement,0.63 
+3_lmt_yes,Economic,0.63 
+3_lmt_yes,Education,44.03 
+3_lmt_yes,Family related travel,38.36 
+3_lmt_yes,Food Insecurity,3.14 
+3_lmt_yes,Return from Displacement,1.89 
+3_lmt_yes,Return from Voluntary Travel,11.32 
+4_lmt_yes,Buy Personal Goods,1.29 
+4_lmt_yes,Disaster Displacement,1.29 
+4_lmt_yes,Economic,1.54 
+4_lmt_yes,Education,21.85 
+4_lmt_yes,Family related travel,36.25 
+4_lmt_yes,Food Insecurity,4.11 
+4_lmt_yes,Return from Displacement,2.06 
+4_lmt_yes,Return from Voluntary Travel,0.26 
+4_lmt_yes,Seasonal,26.22 
+4_lmt_yes,Travel to Collect Aid,5.14 
+5_lmt_yes,Conflict Displacement,1.44 
+5_lmt_yes,Economic,2.52 
+5_lmt_yes,Education,47.30 
+5_lmt_yes,Family related travel,22.48 
+5_lmt_yes,Food Insecurity,3.78 
+5_lmt_yes,Healthcare,0.36 
+5_lmt_yes,Return from Displacement,3.24 
+5_lmt_yes,Return from Voluntary Travel,13.85 
+5_lmt_yes,Travel to Collect Aid,5.04 
+6_lmt_yes,Economic,8.61 
+6_lmt_yes,Education,16.32 
+6_lmt_yes,Family related travel,32.64 
+6_lmt_yes,Food Insecurity,9.79 
+6_lmt_yes,Healthcare,0.59 
+6_lmt_yes,Other,3.56 
+6_lmt_yes,Return from Displacement,0.30 
+6_lmt_yes,Return from Voluntary Travel,27.00 
+6_lmt_yes,Travel to Collect Aid,1.19 
+7_lmt_yes,Disaster Displacement,4.22 
+7_lmt_yes,Economic,3.17 
+7_lmt_yes,Education,15.30 
+7_lmt_yes,Family Related Travel,32.72 
+7_lmt_yes,Food Insecurity,20.84 
+7_lmt_yes,Healthcare,1.85 
+7_lmt_yes,Other,1.85 
+7_lmt_yes,Return from Voluntary Travel,16.36 
+7_lmt_yes,Seasonal,1.58 
+7_lmt_yes,Travel To Collect Aid,2.11 
+8_lmt_yes,Disaster Displacement,4.04 
+8_lmt_yes,Economic,1.66 
+8_lmt_yes,Education,9.50 
+8_lmt_yes,Family Related Travel,34.68 
+8_lmt_yes,Food Insecurity,21.38 
+8_lmt_yes,Healthcare,0.95 
+8_lmt_yes,Other,1.19 
+8_lmt_yes,Return from Displacement,0.48 
+8_lmt_yes,Return from Voluntary Travel,23.75 
+8_lmt_yes,Seasonal,1.43 
+8_lmt_yes,Travel To Collect Aid,0.95 
+9_lmt_yes,Conflict Displacement,8.24 
+9_lmt_yes,Education,12.36 
+9_lmt_yes,Family Related Travel,34.34 
+9_lmt_yes,Food Insecurity,1.37 
+9_lmt_yes,Other,1.10 
+9_lmt_yes,Return from Displacement,1.37 
+9_lmt_yes,Return from Voluntary Travel,37.36 
+9_lmt_yes,Seasonal,1.65 
+9_lmt_yes,Travel To Collect Aid,2.20 
+10_lmt_yes,Disaster Displacement,4.71 
+10_lmt_yes,Economic,1.88 
+10_lmt_yes,Education,29.88 
+10_lmt_yes,Family Related Travel,19.25 
+10_lmt_yes,Food Insecurity,12.92 
+10_lmt_yes,Health Care,0.81 
+10_lmt_yes,Return From Voluntary Travel,26.78 
+10_lmt_yes,Seasonal,2.42 
+10_lmt_yes,Travel to collect Aid,1.35 
+1_lmt_no,Buy Personal Goods,25.75 
+1_lmt_no,Conflict Displacement,0.77 
+1_lmt_no,Disaster Displacement,2.53 
+1_lmt_no,Economic,21.83 
+1_lmt_no,Education,15.20 
+1_lmt_no,Family related travel,23.94 
+1_lmt_no,Food Insecurity,0.04 
+1_lmt_no,Healthcare,1.24 
+1_lmt_no,Other,3.12 
+1_lmt_no,Return from Displacement,0.86 
+1_lmt_no,Return from Voluntary Travel,1.73 
+1_lmt_no,Seasonal,1.73 
+1_lmt_no,Travel to Collect Aid,1.27 
+2_lmt_no,Buy Personal Goods,11.18 
+2_lmt_no,Conflict Displacement,1.66 
+2_lmt_no,Disaster Displacement,2.28 
+2_lmt_no,Economic,14.26 
+2_lmt_no,Education,9.43 
+2_lmt_no,Family related travel,26.93 
+2_lmt_no,Food Insecurity,0.76 
+2_lmt_no,Healthcare,1.95 
+2_lmt_no,Other,4.57 
+2_lmt_no,Return from Displacement,0.07 
+2_lmt_no,Return from Voluntary Travel,10.99 
+2_lmt_no,Seasonal,4.07 
+2_lmt_no,Travel to Collect Aid,11.87 
+3_lmt_no,Buy Personal Goods,16.70 
+3_lmt_no,Conflict Displacement,0.66 
+3_lmt_no,Disaster Displacement,1.71 
+3_lmt_no,Economic,16.04 
+3_lmt_no,Education,9.47 
+3_lmt_no,Family related travel,24.41 
+3_lmt_no,Food Insecurity,0.16 
+3_lmt_no,Healthcare,1.04 
+3_lmt_no,Other,4.73 
+3_lmt_no,Return from Displacement,0.29 
+3_lmt_no,Return from Voluntary Travel,12.03 
+3_lmt_no,Seasonal,1.40 
+3_lmt_no,Travel to Collect Aid,11.39 
+4_lmt_no,Buy Personal Goods,21.53 
+4_lmt_no,Conflict Displacement,0.31 
+4_lmt_no,Disaster Displacement,1.17 
+4_lmt_no,Economic,20.66 
+4_lmt_no,Education,12.80 
+4_lmt_no,Family related travel,17.53 
+4_lmt_no,Food Insecurity,0.13 
+4_lmt_no,Healthcare,0.94 
+4_lmt_no,Other,5.63 
+4_lmt_no,Return from Displacement,0.07 
+4_lmt_no,Return from Voluntary Travel,6.24 
+4_lmt_no,Seasonal,1.09 
+4_lmt_no,Travel to Collect Aid,11.90 
+5_lmt_no,Buy Personal Goods,12.50 
+5_lmt_no,Conflict Displacement,0.10 
+5_lmt_no,Disaster Displacement,0.37 
+5_lmt_no,Economic,21.00 
+5_lmt_no,Education,13.88 
+5_lmt_no,Family related travel,19.54 
+5_lmt_no,Food Insecurity,0.20 
+5_lmt_no,Healthcare,1.46 
+5_lmt_no,Other,3.01 
+5_lmt_no,Return from Displacement,0.13 
+5_lmt_no,Return from Voluntary Travel,8.83 
+5_lmt_no,Seasonal,2.02 
+5_lmt_no,Travel to Collect Aid,16.95 
+6_lmt_no,Buy Personal Goods,11.96 
+6_lmt_no,Conflict Displacement,0.03 
+6_lmt_no,Disaster Displacement,0.37 
+6_lmt_no,Economic,18.95 
+6_lmt_no,Education,7.25 
+6_lmt_no,Family related travel,16.86 
+6_lmt_no,Food Insecurity,2.07 
+6_lmt_no,Healthcare,1.43 
+6_lmt_no,Other,6.96 
+6_lmt_no,Return from Displacement,0.39 
+6_lmt_no,Return from Voluntary Travel,16.99 
+6_lmt_no,Seasonal,2.60 
+6_lmt_no,Travel to Collect Aid,14.15 
+7_lmt_no,Buy Personal Goods,20.19 
+7_lmt_no,Conflict Displacement,0.10 
+7_lmt_no,Disaster Displacement,0.74 
+7_lmt_no,Economic,22.45 
+7_lmt_no,Education,5.08 
+7_lmt_no,Family Related Travel,14.77 
+7_lmt_no,Food Insecurity,9.03 
+7_lmt_no,Healthcare,2.25 
+7_lmt_no,Other,3.82 
+7_lmt_no,Return from Displacement,0.40 
+7_lmt_no,Return from Voluntary Travel,10.48 
+7_lmt_no,Seasonal,2.15 
+7_lmt_no,Travel To Collect Aid,8.55 
+8_lmt_no,Buy Personal Goods,17.49 
+8_lmt_no,Conflict Displacement,0.11 
+8_lmt_no,Disaster Displacement,0.11 
+8_lmt_no,Economic,24.91 
+8_lmt_no,Education,6.92 
+8_lmt_no,Family Related Travel,19.19 
+8_lmt_no,Food Insecurity,3.05 
+8_lmt_no,Healthcare,2.23 
+8_lmt_no,Other,3.02 
+8_lmt_no,Return from Displacement,0.30 
+8_lmt_no,Return from Voluntary Travel,10.99 
+8_lmt_no,Seasonal,2.31 
+8_lmt_no,Travel To Collect Aid,9.35 
+9_lmt_no,Buy Personal Goods,15.44 
+9_lmt_no,Conflict Displacement,0.09 
+9_lmt_no,Disaster Displacement,0.09 
+9_lmt_no,Economic,23.59 
+9_lmt_no,Education,12.54 
+9_lmt_no,Family Related Travel,13.63 
+9_lmt_no,Food Insecurity,0.08 
+9_lmt_no,Healthcare,1.75 
+9_lmt_no,Other,4.36 
+9_lmt_no,Return from Displacement,0.14 
+9_lmt_no,Return from Voluntary Travel,13.79 
+9_lmt_no,Seasonal,2.74 
+9_lmt_no,Travel To Collect Aid,11.75 
+10_lmt_no,Buy Personal Goods,14.51 
+10_lmt_no,Conflict Displacement,0.14 
+10_lmt_no,Disaster Displacement,0.22 
+10_lmt_no,Economic,25.00 
+10_lmt_no,Education,13.57 
+10_lmt_no,Family Related Trave!,15.41 
+10_lmt_no,Food Insecurity,0.39 
+10_lmt_no,Healthcare,2.41 
+10_lmt_no,Other,2.75 
+10_lmt_no,Return from Displacement,0.31 
+10_lmt_no,Return from Voluntary Travel,13.91 
+10_lmt_no,Seasonal,3.73 
+10_lmt_no,Travel to Collect Aid,7.67 
+1_reg_yes,Buy Personal Goods,7.05 
+1_reg_yes,Conflict Displacement,2.20 
+1_reg_yes,Economic,32.16 
+1_reg_yes,Education,14.54 
+1_reg_yes,Family related travel,28.19 
+1_reg_yes,Food Insecurity,1.32 
+1_reg_yes,Healthcare,2.20 
+1_reg_yes,Return from Voluntary Travel,4.85 
+1_reg_yes,Travel to Collect Aid,7.49 
+2_reg_yes,Buy Personal Goods,4.75 
+2_reg_yes,Conflict Displacement,0.74 
+2_reg_yes,Economic,6.13 
+2_reg_yes,Education,2.81 
+2_reg_yes,Family related travel,29.52 
+2_reg_yes,Food Insecurity,0.32 
+2_reg_yes,Healthcare,1.95 
+2_reg_yes,Other,0.15 
+2_reg_yes,Return from Displacement,0.20 
+2_reg_yes,Return from Voluntary Travel,23.81 
+2_reg_yes,Seasonal,1.31 
+2_reg_yes,Travel to Collect Aid,28.32 
+3_reg_yes,Buy Personal Goods,4.46 
+3_reg_yes,Conflict Displacement,0.02 
+3_reg_yes,Disaster Displacement,0.14 
+3_reg_yes,Economic,6.73 
+3_reg_yes,Education,1.15 
+3_reg_yes,Family related travel,22.73 
+3_reg_yes,Food Insecurity,0.14 
+3_reg_yes,Healthcare,1.49 
+3_reg_yes,Other,5.74 
+3_reg_yes,Return from Displacement,0.14 
+3_reg_yes,Return from Voluntary Travel,36.62 
+3_reg_yes,Seasonal,0.50 
+3_reg_yes,Travel to Collect Aid,20.16 
+4_reg_yes,Buy Personal Goods,8.21 
+4_reg_yes,Conflict Displacement,0.44 
+4_reg_yes,Disaster Displacement,0.26 
+4_reg_yes,Economic,7.12 
+4_reg_yes,Education,1.20 
+4_reg_yes,Family related travel,20.44 
+4_reg_yes,Healthcare,0.91 
+4_reg_yes,Other,15.95 
+4_reg_yes,Return from Voluntary Travel,18.39 
+4_reg_yes,Travel to Collect Aid,27.08 
+5_reg_yes,Buy Personal Goods,4.10 
+5_reg_yes,Conflict Displacement,0.11 
+5_reg_yes,Economic,11.60 
+5_reg_yes,Education,8.76 
+5_reg_yes,Family related travel,22.23 
+5_reg_yes,Food Insecurity,0.12 
+5_reg_yes,Healthcare,1.08 
+5_reg_yes,Other,3.73 
+5_reg_yes,Return from Displacement,0.11 
+5_reg_yes,Return from Voluntary Travel,17.29 
+5_reg_yes,Seasonal,1.31 
+5_reg_yes,Travel to Collect Aid,29.58 
+6_reg_yes,Buy Personal Goods,4.45 
+6_reg_yes,Economic,6.27 
+6_reg_yes,Education,1.91 
+6_reg_yes,Family related travel,15.24 
+6_reg_yes,Food Insecurity,2.93 
+6_reg_yes,Healthcare,1.13 
+6_reg_yes,Other,13.30 
+6_reg_yes,Return from Displacement,0.32 
+6_reg_yes,Return from Voluntary Travel,31.40 
+6_reg_yes,Seasonal,1.02 
+6_reg_yes,Travel to Collect Aid,22.05 
+7_reg_yes,Buy Personal Goods,27.91 
+7_reg_yes,Conflict Displacement,0.07 
+7_reg_yes,Disaster Displacement,0.55 
+7_reg_yes,Economic,28.52 
+7_reg_yes,Education,7.71 
+7_reg_yes,Family Related Travel,16.32 
+7_reg_yes,Food Insecurity,5.66 
+7_reg_yes,Healthcare,2.69 
+7_reg_yes,Other,1.09 
+7_reg_yes,Return from Displacement,0.12 
+7_reg_yes,Return from Voluntary Travel,2.91 
+7_reg_yes,Seasonal,2.96 
+7_reg_yes,Travel To Collect Aid,3.49 
+8_reg_yes,Buy Personal Goods,20.78 
+8_reg_yes,Conflict Displacement,0.10 
+8_reg_yes,Disaster Displacement,0.32 
+8_reg_yes,Economic,24.97 
+8_reg_yes,Education,9.31 
+8_reg_yes,Family Related Travel,20.27 
+8_reg_yes,Food Insecurity,4.72 
+8_reg_yes,Healthcare,2.82 
+8_reg_yes,Other,2.72 
+8_reg_yes,Return from Displacement,0.16 
+8_reg_yes,Return from Voluntary Travel,5.81 
+8_reg_yes,Seasonal,3.09 
+8_reg_yes,Travel To Collect Aid,4.94 
+9_reg_yes,Buy Personal Goods,22.90 
+9_reg_yes,Conflict Displacement,0.41 
+9_reg_yes,Disaster Displacement,0.15 
+9_reg_yes,Economic,27.48 
+9_reg_yes,Education,15.87 
+9_reg_yes,Family Related Travel,15.23 
+9_reg_yes,Food Insecurity,0.15 
+9_reg_yes,Healthcare,2.14 
+9_reg_yes,Other,1.39 
+9_reg_yes,Return from Displacement,0.17 
+9_reg_yes,Return from Voluntary Travel,6.01 
+9_reg_yes,Seasonal,4.14 
+9_reg_yes,Travel To Collect Aid,3.94 
+10_reg_yes,Buy Personal Goods,4.07 
+10_reg_yes,Conflict Displacement,0.21 
+10_reg_yes,Economic,16.42 
+10_reg_yes,Education,5.52 
+10_reg_yes,Family Related Travel,18.78 
+10_reg_yes,Food Insecurity,0.54 
+10_reg_yes,Healthcare,0.91 
+10_reg_yes,Other,2.55 
+10_reg_yes,Return from Displacement,0.33 
+10_reg_yes,Return from Voluntary Travel,29.31 
+10_reg_yes,Seasonal,0.96 
+10_reg_yes,Travel To Collect Aid,20.40 
+1_reg_no,Buy Personal Goods,25.75 
+1_reg_no,Conflict Displacement,0.71 
+1_reg_no,Disaster Displacement,2.55 
+1_reg_no,Economic,21.07 
+1_reg_no,Education,16.26 
+1_reg_no,Family related travel,23.82 
+1_reg_no,Healthcare,1.22 
+1_reg_no,Other,3.14 
+1_reg_no,Return from Displacement,0.87 
+1_reg_no,Return from Voluntary Travel,1.81 
+1_reg_no,Seasonal,1.75 
+1_reg_no,Travel to Collect Aid,1.06 
+2_reg_no,Buy Personal Goods,14.57 
+2_reg_no,Conflict Displacement,2.14 
+2_reg_no,Disaster Displacement,3.52 
+2_reg_no,Economic,18.66 
+2_reg_no,Education,14.10 
+2_reg_no,Family related travel,25.83 
+2_reg_no,Food Insecurity,0.99 
+2_reg_no,Healthcare,1.93 
+2_reg_no,Other,6.98 
+2_reg_no,Return from Voluntary Travel,3.50 
+2_reg_no,Seasonal,5.55 
+2_reg_no,Travel to Collect Aid,2.24 
+3_reg_no,Buy Personal Goods,20.86 
+3_reg_no,Conflict Displacement,0.89 
+3_reg_no,Disaster Displacement,2.25 
+3_reg_no,Economic,19.17 
+3_reg_no,Education,12.89 
+3_reg_no,Family related travel,25.19 
+3_reg_no,Food Insecurity,0.20 
+3_reg_no,Healthcare,0.86 
+3_reg_no,Other,4.30 
+3_reg_no,Return from Displacement,0.37 
+3_reg_no,Return from Voluntary Travel,3.22 
+3_reg_no,Seasonal,1.70 
+3_reg_no,Travel to Collect Aid,8.11 
+4_reg_no,Buy Personal Goods,25.79 
+4_reg_no,Conflict Displacement,0.24 
+4_reg_no,Disaster Displacement,1.55 
+4_reg_no,Economic,25.08 
+4_reg_no,Education,18.05 
+4_reg_no,Family related travel,17.43 
+4_reg_no,Food Insecurity,0.42 
+4_reg_no,Healthcare,0.89 
+4_reg_no,Other,1.10 
+4_reg_no,Return from Displacement,0.21 
+4_reg_no,Return from Voluntary Travel,0.94 
+4_reg_no,Seasonal,2.99 
+4_reg_no,Travel to Collect Aid,5.31 
+5_reg_no,Buy Personal Goods,17.17 
+5_reg_no,Conflict Displacement,0.17 
+5_reg_no,Disaster Displacement,0.59 
+5_reg_no,Economic,25.99 
+5_reg_no,Education,18.93 
+5_reg_no,Family related travel,17.98 
+5_reg_no,Food Insecurity,0.43 
+5_reg_no,Healthcare,1.64 
+5_reg_no,Other,2.39 
+5_reg_no,Return from Displacement,0.32 
+5_reg_no,Return from Voluntary Travel,3.72 
+5_reg_no,Seasonal,2.37 
+5_reg_no,Travel to Collect Aid,8.28 
+6_reg_no,Buy Personal Goods,17.33 
+6_reg_no,Conflict Displacement,0.05 
+6_reg_no,Disaster Displacement,0.64 
+6_reg_no,Economic,28.30 
+6_reg_no,Education,11.55 
+6_reg_no,Family related travel,18.52 
+6_reg_no,Food Insecurity,1.63 
+6_reg_no,Healthcare,1.64 
+6_reg_no,Other,2.06 
+6_reg_no,Return from Displacement,0.44 
+6_reg_no,Return from Voluntary Travel,6.32 
+6_reg_no,Seasonal,3.72 
+6_reg_no,Travel to Collect Aid,7.81 
+7_reg_no,Buy Personal Goods,7.27 
+7_reg_no,Conflict Displacement,0.15 
+7_reg_no,Disaster Displacement,1.18 
+7_reg_no,Economic,12.14 
+7_reg_no,Education,1.42 
+7_reg_no,Family Related Travel,13.14 
+7_reg_no,Food Insecurity,14.81 
+7_reg_no,Healthcare,1.53 
+7_reg_no,Other,8.00 
+7_reg_no,Return from Displacement,0.82 
+7_reg_no,Return from Voluntary Travel,22.52 
+7_reg_no,Seasonal,0.86 
+7_reg_no,Travel To Collect Aid,16.16 
+8_reg_no,Buy Personal Goods,9.82 
+8_reg_no,Conflict Displacement,0.14 
+8_reg_no,Economic,23.11 
+8_reg_no,Education,2.45 
+8_reg_no,Family Related Travel,18.21 
+8_reg_no,Food Insecurity,1.14 
+8_reg_no,Healthcare,0.98 
+8_reg_no,Other,3.49 
+8_reg_no,Return from Displacement,0.59 
+8_reg_no,Return from Voluntary Travel,22.01 
+8_reg_no,Seasonal,0.72 
+8_reg_no,Travel To Collect Aid,17.35 
+9_reg_no,Buy Personal Goods,2.96 
+9_reg_no,Conflict Displacement,0.05 
+9_reg_no,Economic,16.20 
+9_reg_no,Education,7.34 
+9_reg_no,Family Related Travel,12.33 
+9_reg_no,Food Insecurity,0.03 
+9_reg_no,Healthcare,1.03 
+9_reg_no,Other,8.80 
+9_reg_no,Return from Displacement,0.17 
+9_reg_no,Return from Voluntary Travel,27.23 
+9_reg_no,Seasonal,0.50 
+9_reg_no,Travel To Collect Aid,23.35 
+10_reg_no,Buy Personal Goods,17.69 
+10_reg_no,Conflict Displacement,0.10 
+10_reg_no,Disaster Displacement,0.62 
+10_reg_no,Economic,26.82 
+10_reg_no,Education,17.93 
+10_reg_no,Family Related Trave!,14.32 
+10_reg_no,Food Insecurity,1.20 
+10_reg_no,Healthcare,2.90 
+10_reg_no,Other,2.63 
+10_reg_no,Return from Displacement,0.28 
+10_reg_no,Return from Voluntary Travel,8.63 
+10_reg_no,Seasonal,4.75 
+10_reg_no,Travel to Collect Aid,2.13 

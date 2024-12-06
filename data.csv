@@ -1,0 +1,86 @@
+Reason_type,Reason,percent
+1_lmt_yes,Economic,0.61 
+1_lmt_yes,Education,64.24 
+1_lmt_yes,Family Related Travel,24.24 
+1_lmt_yes,Health Care,1.21 
+1_lmt_yes,Return from voluntary travel,9.70 
+2_lmt_yes,Economic,4.47 
+2_lmt_yes,Education,44.69 
+2_lmt_yes,Family Related Travel,41.90 
+2_lmt_yes,Health Care,1.12 
+2_lmt_yes,Return from voluntary travel,5.03 
+2_lmt_yes,Travel to Collect Aid,2.79 
+3_lmt_yes,Conflict Displacement,0.63 
+3_lmt_yes,Economic,0.63 
+3_lmt_yes,Education,44.03 
+3_lmt_yes,Family related travel,38.36 
+3_lmt_yes,Food Insecurity,3.14 
+3_lmt_yes,Return from Displacement,1.89 
+3_lmt_yes,Return from Voluntary Travel,11.32 
+4_lmt_yes,Buy Personal Goods,1.29 
+4_lmt_yes,Disaster Displacement,1.29 
+4_lmt_yes,Economic,1.54 
+4_lmt_yes,Education,21.85 
+4_lmt_yes,Family related travel,36.25 
+4_lmt_yes,Food Insecurity,4.11 
+4_lmt_yes,Return from Displacement,2.06 
+4_lmt_yes,Return from Voluntary Travel,0.26 
+4_lmt_yes,Seasonal,26.22 
+4_lmt_yes,Travel to Collect Aid,5.14 
+5_lmt_yes,Conflict Displacement,1.44 
+5_lmt_yes,Economic,2.52 
+5_lmt_yes,Education,47.30 
+5_lmt_yes,Family related travel,22.48 
+5_lmt_yes,Food Insecurity,3.78 
+5_lmt_yes,Healthcare,0.36 
+5_lmt_yes,Return from Displacement,3.24 
+5_lmt_yes,Return from Voluntary Travel,13.85 
+5_lmt_yes,Travel to Collect Aid,5.04 
+6_lmt_yes,Economic,8.61 
+6_lmt_yes,Education,16.32 
+6_lmt_yes,Family related travel,32.64 
+6_lmt_yes,Food Insecurity,9.79 
+6_lmt_yes,Healthcare,0.59 
+6_lmt_yes,Other,3.56 
+6_lmt_yes,Return from Displacement,0.30 
+6_lmt_yes,Return from Voluntary Travel,27.00 
+6_lmt_yes,Travel to Collect Aid,1.19 
+7_lmt_yes,Disaster Displacement,4.22 
+7_lmt_yes,Economic,3.17 
+7_lmt_yes,Education,15.30 
+7_lmt_yes,Family Related Travel,32.72 
+7_lmt_yes,Food Insecurity,20.84 
+7_lmt_yes,Healthcare,1.85 
+7_lmt_yes,Other,1.85 
+7_lmt_yes,Return from Voluntary Travel,16.36 
+7_lmt_yes,Seasonal,1.58 
+7_lmt_yes,Travel To Collect Aid,2.11 
+8_lmt_yes,Disaster Displacement,4.04 
+8_lmt_yes,Economic,1.66 
+8_lmt_yes,Education,9.50 
+8_lmt_yes,Family Related Travel,34.68 
+8_lmt_yes,Food Insecurity,21.38 
+8_lmt_yes,Healthcare,0.95 
+8_lmt_yes,Other,1.19 
+8_lmt_yes,Return from Displacement,0.48 
+8_lmt_yes,Return from Voluntary Travel,23.75 
+8_lmt_yes,Seasonal,1.43 
+8_lmt_yes,Travel To Collect Aid,0.95 
+9_lmt_yes,Conflict Displacement,8.24 
+9_lmt_yes,Education,12.36 
+9_lmt_yes,Family Related Travel,34.34 
+9_lmt_yes,Food Insecurity,1.37 
+9_lmt_yes,Other,1.10 
+9_lmt_yes,Return from Displacement,1.37 
+9_lmt_yes,Return from Voluntary Travel,37.36 
+9_lmt_yes,Seasonal,1.65 
+9_lmt_yes,Travel To Collect Aid,2.20 
+10_lmt_yes,Disaster Displacement,4.71 
+10_lmt_yes,Economic,1.88 
+10_lmt_yes,Education,29.88 
+10_lmt_yes,Family Related Travel,19.25 
+10_lmt_yes,Food Insecurity,12.92 
+10_lmt_yes,Health Care,0.81 
+10_lmt_yes,Return From Voluntary Travel,26.78 
+10_lmt_yes,Seasonal,2.42 
+10_lmt_yes,Travel to collect Aid,1.35 

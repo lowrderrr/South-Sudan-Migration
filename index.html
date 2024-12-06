@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>矩形交互</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <h1>Demographic Flow in South Sudan (01/2022 - 10/2022)</h1>
+
+    <div class="container">
+        <div class="axis">
+            <div class="axis-title">Population</div>
+            <div class="label label-25000">25000</div>
+            <div class="label label-20000">20000</div>
+            <div class="label label-15000">15000</div>
+            <div class="label label-10000">15000</div>
+            <div class="label label-5000">5000</div>
+            <div class="label label-0">0</div>
+        </div>
+
+        <!-- 添加 data-month 属性，值为月份 -->
+        <div class="rectangle" data-id="1" data-month="01-2022"></div>
+        <div class="rectangle" data-id="2" data-month="02-2022"></div>
+        <div class="rectangle" data-id="3" data-month="03-2022"></div>
+        <div class="rectangle" data-id="4" data-month="04-2022"></div>
+        <div class="rectangle" data-id="5" data-month="05-2022"></div>
+        <div class="rectangle" data-id="6" data-month="06-2022"></div>
+        <div class="rectangle" data-id="7" data-month="07-2022"></div>
+        <div class="rectangle" data-id="8" data-month="08-2022"></div>
+        <div class="rectangle" data-id="9" data-month="09-2022"></div>
+        <div class="rectangle" data-id="10" data-month="10-2022"></div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+Reason_type,Reason,percent
+1_reg_yes,Buy Personal Goods,7.05 
+1_reg_yes,Conflict Displacement,2.20 
+1_reg_yes,Economic,32.16 
+1_reg_yes,Education,14.54 
+1_reg_yes,Family related travel,28.19 
+1_reg_yes,Food Insecurity,1.32 
+1_reg_yes,Healthcare,2.20 
+1_reg_yes,Return from Voluntary Travel,4.85 
+1_reg_yes,Travel to Collect Aid,7.49 
+2_reg_yes,Buy Personal Goods,4.75 
+2_reg_yes,Conflict Displacement,0.74 
+2_reg_yes,Economic,6.13 
+2_reg_yes,Education,2.81 
+2_reg_yes,Family related travel,29.52 
+2_reg_yes,Food Insecurity,0.32 
+2_reg_yes,Healthcare,1.95 
+2_reg_yes,Other,0.15 
+2_reg_yes,Return from Displacement,0.20 
+2_reg_yes,Return from Voluntary Travel,23.81 
+2_reg_yes,Seasonal,1.31 
+2_reg_yes,Travel to Collect Aid,28.32 
+3_reg_yes,Buy Personal Goods,4.46 
+3_reg_yes,Conflict Displacement,0.02 
+3_reg_yes,Disaster Displacement,0.14 
+3_reg_yes,Economic,6.73 
+3_reg_yes,Education,1.15 
+3_reg_yes,Family related travel,22.73 
+3_reg_yes,Food Insecurity,0.14 
+3_reg_yes,Healthcare,1.49 
+3_reg_yes,Other,5.74 
+3_reg_yes,Return from Displacement,0.14 
+3_reg_yes,Return from Voluntary Travel,36.62 
+3_reg_yes,Seasonal,0.50 
+3_reg_yes,Travel to Collect Aid,20.16 
+4_reg_yes,Buy Personal Goods,8.21 
+4_reg_yes,Conflict Displacement,0.44 
+4_reg_yes,Disaster Displacement,0.26 
+4_reg_yes,Economic,7.12 
+4_reg_yes,Education,1.20 
+4_reg_yes,Family related travel,20.44 
+4_reg_yes,Healthcare,0.91 
+4_reg_yes,Other,15.95 
+4_reg_yes,Return from Voluntary Travel,18.39 
+4_reg_yes,Travel to Collect Aid,27.08 
+5_reg_yes,Buy Personal Goods,4.10 
+5_reg_yes,Conflict Displacement,0.11 
+5_reg_yes,Economic,11.60 
+5_reg_yes,Education,8.76 
+5_reg_yes,Family related travel,22.23 
+5_reg_yes,Food Insecurity,0.12 
+5_reg_yes,Healthcare,1.08 
+5_reg_yes,Other,3.73 
+5_reg_yes,Return from Displacement,0.11 
+5_reg_yes,Return from Voluntary Travel,17.29 
+5_reg_yes,Seasonal,1.31 
+5_reg_yes,Travel to Collect Aid,29.58 
+6_reg_yes,Buy Personal Goods,4.45 
+6_reg_yes,Economic,6.27 
+6_reg_yes,Education,1.91 
+6_reg_yes,Family related travel,15.24 
+6_reg_yes,Food Insecurity,2.93 
+6_reg_yes,Healthcare,1.13 
+6_reg_yes,Other,13.30 
+6_reg_yes,Return from Displacement,0.32 
+6_reg_yes,Return from Voluntary Travel,31.40 
+6_reg_yes,Seasonal,1.02 
+6_reg_yes,Travel to Collect Aid,22.05 
+7_reg_yes,Buy Personal Goods,27.91 
+7_reg_yes,Conflict Displacement,0.07 
+7_reg_yes,Disaster Displacement,0.55 
+7_reg_yes,Economic,28.52 
+7_reg_yes,Education,7.71 
+7_reg_yes,Family Related Travel,16.32 
+7_reg_yes,Food Insecurity,5.66 
+7_reg_yes,Healthcare,2.69 
+7_reg_yes,Other,1.09 
+7_reg_yes,Return from Displacement,0.12 
+7_reg_yes,Return from Voluntary Travel,2.91 
+7_reg_yes,Seasonal,2.96 
+7_reg_yes,Travel To Collect Aid,3.49 
+8_reg_yes,Buy Personal Goods,20.78 
+8_reg_yes,Conflict Displacement,0.10 
+8_reg_yes,Disaster Displacement,0.32 
+8_reg_yes,Economic,24.97 
+8_reg_yes,Education,9.31 
+8_reg_yes,Family Related Travel,20.27 
+8_reg_yes,Food Insecurity,4.72 
+8_reg_yes,Healthcare,2.82 
+8_reg_yes,Other,2.72 
+8_reg_yes,Return from Displacement,0.16 
+8_reg_yes,Return from Voluntary Travel,5.81 
+8_reg_yes,Seasonal,3.09 
+8_reg_yes,Travel To Collect Aid,4.94 
+9_reg_yes,Buy Personal Goods,22.90 
+9_reg_yes,Conflict Displacement,0.41 
+9_reg_yes,Disaster Displacement,0.15 
+9_reg_yes,Economic,27.48 
+9_reg_yes,Education,15.87 
+9_reg_yes,Family Related Travel,15.23 
+9_reg_yes,Food Insecurity,0.15 
+9_reg_yes,Healthcare,2.14 
+9_reg_yes,Other,1.39 
+9_reg_yes,Return from Displacement,0.17 
+9_reg_yes,Return from Voluntary Travel,6.01 
+9_reg_yes,Seasonal,4.14 
+9_reg_yes,Travel To Collect Aid,3.94 
+10_reg_yes,Buy Personal Goods,4.07 
+10_reg_yes,Conflict Displacement,0.21 
+10_reg_yes,Economic,16.42 
+10_reg_yes,Education,5.52 
+10_reg_yes,Family Related Travel,18.78 
+10_reg_yes,Food Insecurity,0.54 
+10_reg_yes,Healthcare,0.91 
+10_reg_yes,Other,2.55 
+10_reg_yes,Return from Displacement,0.33 
+10_reg_yes,Return from Voluntary Travel,29.31 
+10_reg_yes,Seasonal,0.96 
+10_reg_yes,Travel To Collect Aid,20.40 
