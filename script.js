@@ -215,7 +215,7 @@ async function initializeRectangles() {
                     const circle = document.createElement('div');
                     circle.style.width = '200px'; // Diameter = 2 * radius
                     circle.style.height = '250px'; // Diameter = 2 * radius
-                    circle.style.backgroundColor = 'white';
+                    circle.style.backgroundColor = 'none';
                     circle.style.margin = '0 auto'; // Center horizontally
                     circle.style.marginBottom = '-10px'; // Add spacing below
                     circle.classList.add('circle');
@@ -296,16 +296,8 @@ async function initializeRectangles() {
                             });
 
                             rectangle.addEventListener('mouseleave', () => {
-                                const circle = document.querySelector('.circle');
-
-                                if (!circle) {
-                                    console.error('Circle element not found.');
-                                    return;
-                                }
-
-                                // 清空 circle 内容并恢复默认样式
-                                circle.innerHTML = '';
-                                circle.style.backgroundColor = 'white'; // 恢复背景颜色
+                                // 不立即清空内容，设置一个标志等待鼠标进入其他区域
+                                rectangle.classList.add('waiting-clear');
                             });
                         }
 
@@ -343,16 +335,8 @@ async function initializeRectangles() {
                             
 
                             rectangle.addEventListener('mouseleave', () => {
-                                const circle = document.querySelector('.circle');
-
-                                if (!circle) {
-                                    console.error('Circle element not found.');
-                                    return;
-                                }
-
-                                // 清空 circle 内容并恢复默认样式
-                                circle.innerHTML = '';
-                                circle.style.backgroundColor = 'white'; // 恢复背景颜色
+                                // 不立即清空内容，设置一个标志等待鼠标进入其他区域
+                                rectangle.classList.add('waiting-clear');
                             });
                         }
 
@@ -434,16 +418,8 @@ async function initializeRectangles() {
                             });
 
                             rectangle.addEventListener('mouseleave', () => {
-                                const circle = document.querySelector('.circle');
-
-                                if (!circle) {
-                                    console.error('Circle element not found.');
-                                    return;
-                                }
-
-                                // 清空 circle 内容并恢复默认样式
-                                circle.innerHTML = '';
-                                circle.style.backgroundColor = 'white'; // 恢复背景颜色
+                                // 不立即清空内容，设置一个标志等待鼠标进入其他区域
+                                rectangle.classList.add('waiting-clear');
                             });
                         }
 
@@ -481,16 +457,8 @@ async function initializeRectangles() {
                             
 
                             rectangle.addEventListener('mouseleave', () => {
-                                const circle = document.querySelector('.circle');
-
-                                if (!circle) {
-                                    console.error('Circle element not found.');
-                                    return;
-                                }
-
-                                // 清空 circle 内容并恢复默认样式
-                                circle.innerHTML = '';
-                                circle.style.backgroundColor = 'white'; // 恢复背景颜色
+                                // 不立即清空内容，设置一个标志等待鼠标进入其他区域
+                                rectangle.classList.add('waiting-clear');
                             });
                         }
 

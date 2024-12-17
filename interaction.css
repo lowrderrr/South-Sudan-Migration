@@ -3,7 +3,6 @@ body {
     flex-direction: column; /* 垂直排列标题和图表 */
     align-items: center;
     height: 400px;
-    background-color: #ffffff;
     margin: 0px;
     font-size: medium;
     font-family:'Times New Roman', Times, serif;
@@ -112,10 +111,9 @@ main, header, footer {
 .rectangle {
     height: 400px;
     width: 80px;
-    background-color: #ffffff;
     position: relative;
     margin: 0;
-    border-right: 1px dashed #d1d1d1;
+    border-right: 1px dashed #165986;
     border-bottom: 1px solid #165986;
 
     cursor: pointer;
@@ -164,4 +162,5 @@ main, header, footer {
     position: relative; /* 确保饼图在布局中可见 */
     z-index: 2; /* 提高 z-index，避免被覆盖 */
     pointer-events: none; /* 防止饼图阻挡点击事件 */
+    background-color: none;
 }

@@ -1,11 +1,11 @@
 body {
-    padding: 140px;
+    padding: 20px;
     flex-direction: column; /* 垂直排列标题和图表 */
     align-items: center;
     height: 100vh;
     background-color: #ffffff;
     margin: 0px;
-    background-color: turquoise;
+    background-color: #40e0d0;
     color:darkblue;
     font-size: medium;
     font-family:'Times New Roman', Times, serif;
@@ -49,8 +49,10 @@ h5{
 }
   
 .hero-image img {
-    width: 1200px;
+    width: 1120px;
     height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .overlay-text {
@@ -73,19 +75,27 @@ h5{
 
 .bilingual-container {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 10px;
-    padding: 20px;
     justify-content: center;
-    max-width: 1040px;
+    width: 1120px;
 }
 
 .column {
+    display: flexbox;
     padding: 20px;
     background-color: rgba(255,255,255,0.5);
     border-radius: 10px; 
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
     color:darkblue;
+    height:970px;
+    overflow-y: scroll;
+    scrollbar-width: none; /* 隐藏滚动条（适用于 Firefox） */
+    -ms-overflow-style: none; /* 隐藏滚动条（适用于 IE 和 Edge） */
+}
+
+.column::-webkit-scrollbar {
+    display: none; /* 隐藏滚动条（适用于 Chrome 和 Safari） */
 }
 
 .column2 {
@@ -94,7 +104,7 @@ h5{
     border-radius: 10px; 
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
     color:darkblue;
-    width: 1000px;
+    width: 1080px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -103,21 +113,16 @@ h5{
 
 .iframe-container {
     text-align: center;
-    width: 700px;
+    width: 800px;
+    height: 1000px;
     background-color: rgba(255,255,255,0.5);
     border-radius: 10px; 
-    padding: 20px;
+    padding: 5px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
     color:darkblue;
 }
 
-.center-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: center; /* 再次确保水平居中 */
-    align-items: center;
-    overflow: hidden; /* 隐藏滚动条 */
-}
+
 
 .center-wrapper2{
     width: 100%;
@@ -146,7 +151,7 @@ h5{
 
 .iframe-container2{
     text-align: center;
-    width: 1000px;
+    width: 1080px;
     padding: 20px;
     background-color: rgba(255,255,255,0.5);
     border-radius: 10px; 
@@ -167,8 +172,9 @@ h5{
 
 .responsive-iframe {
     width: 100%; /* 设置宽度 */
-    height: 3500px; /* 设置高度 */
+    height: 1000px; /* 设置高度 */
     border: none;
+    border-radius: 8px;
 }
 
 .align-heading{
@@ -220,6 +226,14 @@ h5{
     justify-content: center; /* 再次确保水平居中 */
     align-items: center;
     overflow: hidden; /* 隐藏滚动条 */   
+}
+
+.center-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 再次确保水平居中 */
+    align-items: center;
+    overflow: hidden; /* 隐藏滚动条 */  
 }
 
 p {
